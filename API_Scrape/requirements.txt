@@ -1,0 +1,4 @@
+requests
+xlwt
+email
+secure-smtplib
