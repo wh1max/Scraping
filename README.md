@@ -48,4 +48,7 @@ Key features:
 Key features:
 1. Simplifies sending HTTP/HTTPS requests.
 2. Manage session, cookie, and header management
-3. Integrates well with parsers like BeautifulSoup.
+3. Integrates well with parsers like BeautifulSoup
+
+# Legal Considerations
+It’s important to note that not all websites allow web scraping. Always review a website’s robots.txt file and terms of service before scraping to ensure you are complying with legal and ethical standards.
