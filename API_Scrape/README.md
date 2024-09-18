@@ -43,16 +43,7 @@ If there are files to be attached, it loops through them, opens them in binary m
 Note: The code has placeholders for the SMTP server address and credentials, which would need to be filled in for it to work.
 
 # Main Execution Block
-
-'''
-
-if __name__ == "__main__":
-    json = get_job_posting()[1:] # Get the data from website starting from index 1.
-    output_jobs_to_xls(json) # Save the data into xls format.
-    send_email('send_from', ['send_to'], 'Subject',
-               'Text', files=['File name']) # Send the data to email.
-               
-'''
+![Image Link](https://github.com/wh1max/Scraping/blob/main/API_Scrape/sc.png)
 
 - The script is designed to execute when run directly. Here's what happens step-by-step:
 1. Fetch Data: It calls get_job_posting() to get the job postings from the API, and slices the list to skip the first entry ([1:]). This might be because the first item in the API response is either metadata or not needed.
